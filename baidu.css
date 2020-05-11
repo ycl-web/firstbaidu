@@ -1,0 +1,150 @@
+* {
+    font-family: "宋体";
+    margin: 0px;
+    padding: 0px;
+}
+.dead{
+    background-color: rgb(69,157,245);
+    height: 50px;
+}
+a{
+    padding: 30px;
+    margin: 30px;
+    
+    color: white;
+}
+.next{
+    background-color: rgb(30,65,158);
+    height: 300px;
+}
+.jbxx{
+    border-bottom: 2px dotted #ddd;
+    list-style: none;
+    line-height: 30px;
+    height:30px;
+    font-size: 12px;
+}
+.box{ 
+    
+    width: 610px; 
+    height: 220px; 
+    font-size:0;
+
+    
+} 
+.list{ 
+    display: inline-block;
+    width: 130px; 
+    height: 200px; 
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc; 
+    
+} 
+.up{
+    color: #000;
+    font-size: 13px;
+    margin: 0px;
+}
+.down{
+    color: rgb(160, 157, 157);
+    font-size: 11px;
+    margin: 0px;
+}
+        
+        #wrap{
+            width: 630px;
+            height: 160px;
+            margin: 50px auto;
+        }
+        #wrap .header{
+            font-size:0;
+        }
+        .header span{
+            display: inline-block;
+            background-color: black;
+            padding: 5px 77px;
+            font-size: 14px;
+            color: #fff;
+            cursor: pointer;
+            margin: 0px;
+        }
+        .header span.selectedSpan{
+            background-color: #aaa;
+            color: #fff;
+            
+        }
+        .content ul{
+            display: none;
+            width: 100%;
+        }
+        .content ul.selectedList{
+            display: block;
+
+        }
+        .content ul li{
+            background-color: white;
+            padding: 8px 0 8px 5px;
+            border-bottom: 1px dashed #aaa;
+            text-indent: 12px;
+            list-style-type:none;
+        }
+        
+
+        div textarea{
+            width: 100%;
+            height: 200px;
+        }
+        #btnSubmit{
+            float: right;
+            width: 100px;
+            height: 35px;
+        }
+        #lists{
+            margin: 50px;
+        }
+        #lists li{
+            width: 100%;
+            margin-top: 10px;
+            line-height: 30px;
+            bottom: 2px solid #847;
+            text-indent: 25px;
+            border-bottom: 1px solid #000;
+        }
+        .one:hover{
+            color: red;
+        }
+        .two:hover{
+            color: red;
+        }
+        .one{color: #000;text-decoration: underline;}
+        .two{color: #000;text-decoration: underline;}
+
+        div.one{
+            margin: 10px auto;
+            height: 320px;
+            width: 250px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            
+        }
+        
+        div.two{
+            margin: 10px auto;
+            height: 320px;
+            width: 250px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        p.one{
+            color:#666;
+            font-size: 14px;
+            line-height: 32px;
+            margin:0px;
+        }
+        p.two{
+            color: #666;
+            font-size: 14px;
+            line-height: 32px;
+        }

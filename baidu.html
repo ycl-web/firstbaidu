@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>戳爷百度百科</title>
+    <link href="baidu.css" rel="stylesheet" type="text/css"><!-- 引用css文件  -->
+    
+      
+</head>
+<body>
+    <!-- 首先制作网页最顶端的选项框  -->
+    <div class="dead">
+        <div style="position: relative;left: 100px;top: 15px;"><a>首页</a><a>分类</a><a>首页百科</a><a>特色百科</a><a>用户</a><a>权威合作</a><a>个人中心</a></div>
+    </div>
+    <!-- 制作视频背景，并插入视频，由于戳爷视频没找到，所以用风景视频代替一下  -->
+    <div class="next">
+        <div style="position: relative;top: 20px;left: 530px;">
+            <video width="420" height="250" controls="controls" autoplay="autoplay">
+                <source src="123.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <!-- 运用简单的网页设计，将简介布局好，该插入图片的位置插入图片  -->
+    <div style="width: 1000px; height: 500px;margin-left: auto;margin-right: auto;">
+        <div style="margin: 30px;">
+            <b style="font-size: 2em;">特洛耶·希文</b>
+            <a style="border:grey 1px solid ;border-radius:5px; padding: 5px;margin: 10px;color: gray;">编辑</a><!-- 运用到了一个border-radius的点，这个值越大外边框越圆  -->
+            <a style="border:grey 1px solid ;border-radius:5px; padding: 5px;margin: 10px;color: gray;">讨论</a>
+            <a style="border:grey 1px solid ;border-radius:5px; padding: 5px;margin: 10px;color: gray;">上传视频</a>
+        </div>
+        <div>
+            <a style="background-color: rgb(238,247,253);padding: 5px;color: black;margin: 5px;">1995年6月5日</a>
+            <a style="background-color: rgb(238,247,253);padding: 5px;color: black;margin: 5px;">南非约翰内斯堡</a>
+            <a style="background-color: rgb(238,247,253);padding: 5px;color: black;margin: 5px;"> 澳大利亚</a>
+        </div>
+        <div style="width: 650px;margin: 20px;">
+        <p><!-- 为了开头可以空两格所以使用&emsp；  -->
+            &emsp;&emsp;特洛耶·希文（Troye Sivan），1995年6月5日出生于南非约翰内斯堡，南非裔澳大利亚歌手、演员。
+            &emsp;&emsp;2007年，在YouTube平台翻唱歌曲《Tell Me Why》，获得大众的关注 [1]  。2008年，在电影《X战警前传：金刚狼》中出演少年时期的“金刚狼”詹姆斯·豪利特。2011年，凭借电影《马铃薯》提名南非电影电视奖电影长片类最佳男主角奖 [2]  。2013年，发行个人首张音乐EP《TRXYE》。2014年，入选《时代周刊》“2014年网络最具有影响力青少年25位” [3]  。2015年，获得儿童选择奖“最受欢迎澳大利亚/新西兰网络红人奖” [4]  ，并发行个人第二张音乐EP《WILD》，12月发行个人首张音乐专辑《Blue Neighbourhood》 [5]  。2018年，发行个人第二张音乐专辑《Bloom》 [6]  。
+        </p>
+        </div>
+        <div style="margin: 20px;">
+            <a>代表作品</a>
+            <br>
+            <img src="1.jpg"  alt="代表作品" title="代表作品"/><!-- 在当鼠标放在图片上的时候，会出现“代表作品”  -->
+        </div>
+        <div style="position: relative;right: -700px;top: -400px;"><!-- 使用了position并设定为相对定位，通过移动把照片移动到合适的位置  -->
+            <img src="2.jpg" width="250px" height="350px" alt="代表作品" title="代表作品"/>
+        </div>
+    </div>
+    <!-- 用大框架框住，在这个框架里写正文  -->
+    <div style="width: 1000px; height: 5000px;margin-left: auto;margin-right: auto;margin-top: 20px;">
+        <!-- 在页面右边插入广告，利用html与css制作了一个广告页面  -->
+        <div style="float: right;"><!-- 在css文件里将p设置成鼠标移动到上面就可以变红，然后将广告该放的照片妥善放置  -->
+            <div class="one">
+                <img src="images/1.jpg"width="250px" height="188px"/>
+                <p class="one">零食便利店《如何挑选心爱的零食...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                2小时前上传<br>
+                1284 &emsp;人气/11  &emsp;  评论/47  &emsp;  推荐</p>
+                <img src="images/play.png" hspace="0px"/>
+            </div>
+        
+            <div class="two">
+                <img src="images/2.jpg"width="250px" height="188px"/>
+                <p class="one">电器店X视知《自己喜欢的电器...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                    3小时前上传<br>
+                    1569 &emsp; 人气/50  &emsp;  评论/125  &emsp;  推荐</p>
+                    <img src="images/play.png" hspace="0px"/>
+            </div>
+        </div>
+        <!-- 以下为基本信息一栏由于下文占用ul所以没有使用ul li但也不影响效果  -->
+        <div style="margin: 50px;width: 600px;">
+        <b style="font-size: 2em;">基本信息</b>
+        <div style="width: 950px; font-size:0;"><!-- 在css文件里将每一个“盒子”的下边框改成虚线  -->
+        <div style="width: 300px;display: inline-block;margin: 0px;padding: 0px;"><!-- 将div改为行内元素可以使其并排显示  -->
+            
+                <li class="jbxx">中文名&emsp;&emsp;&emsp;&emsp;特洛耶·希文</li>
+                <li class="jbxx">外文名&emsp;&emsp;&emsp;&emsp;Troye Sivan </li>
+                <li class="jbxx">别    名&emsp;&emsp;&emsp;&emsp;戳爷、小T、Troye Sivan Mellet </li>
+                <li class="jbxx">国    籍&emsp;&emsp;&emsp;&emsp;澳大利亚 </li>
+                <li class="jbxx">民    族&emsp;&emsp;&emsp;&emsp;犹太族 </li>
+                <li class="jbxx">星    座&emsp;&emsp;&emsp;&emsp;双子座</li>
+                <li class="jbxx">血    型&emsp;&emsp;&emsp;&emsp;O型</li>
+                <li class="jbxx">身    高&emsp;&emsp;&emsp;&emsp;174cm</li>
+                <li class="jbxx">体    重&emsp;&emsp;&emsp;&emsp;50kg</li>
+            
+        </div>
+        <div style="width: 300px;display: inline-block;margin: 0px; padding: 0px;">
+            
+                <li class="jbxx">中文名&emsp;&emsp;&emsp;&emsp;特洛耶·希文</li>
+                <li class="jbxx">外文名&emsp;&emsp;&emsp;&emsp;Troye Sivan </li>
+                <li class="jbxx">别    名&emsp;&emsp;&emsp;&emsp;戳爷、小T、Troye Sivan Mellet </li>
+                <li class="jbxx">国    籍&emsp;&emsp;&emsp;&emsp;澳大利亚 </li>
+                <li class="jbxx">民    族&emsp;&emsp;&emsp;&emsp;犹太族 </li>
+                <li class="jbxx">星    座&emsp;&emsp;&emsp;&emsp;双子座</li>
+                <li class="jbxx">血    型&emsp;&emsp;&emsp;&emsp;O型</li>
+                <li class="jbxx">身    高&emsp;&emsp;&emsp;&emsp;174cm</li>
+                <li class="jbxx">体    重&emsp;&emsp;&emsp;&emsp;50kg</li>
+            
+        </div>
+        </div>
+        </div>
+        <!-- 以下为早年经历，较简单只是插入了文字与照片  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">早年经历</b>
+        <br>
+            <img src="1.gif" width="600px"/>
+            <p>&emsp;&emsp;特洛耶·希文出生于南非约翰内斯堡。在他两岁时，全家移居至澳大利亚西部珀斯。特洛耶·希文的爸爸是房地产经纪人，出生于一个犹太家庭 [7]  。妈妈是全职家庭主妇，皈依犹太教 [8]  。特洛耶·希文是作为传统的犹太人长大，曾就读于一所犹太学校 [8]  。特洛耶·希文有庆祝犹太安息日 [9]  。2007年，特洛耶·希文开启YouTube自媒体频道，并上传了翻唱《Tell Me Why》的视频，获得大众的关注，一个月时间获得了2.7万订阅数 [10]  。</p>
+            <img src="3.jpg" width="600px" height="400px" alt="早年经历" title="早年经历"/>
+        </div>
+        <!-- 与上一个广告一样放在网页的右边，hspace让照片距离左边的位置  -->
+        <div style="float: right;">
+            <div class="one">
+                <img src="images/3.jpg"width="250px" height="188px"/>
+                <p class="one">家电维修Xnice网《爽干系列洗...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                2小时前上传<br>
+                1284 &emsp;人气/11  &emsp;  评论/47  &emsp;  推荐</p>
+                <img src="images/play.png" hspace="0px"/>
+            </div>
+        
+            <div class="two">
+                <img src="images/4.jpg"width="250px" height="188px"/>
+                <p class="one">互联网便利店X《香槟意境...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                    3小时前上传<br>
+                    1569 &emsp; 人气/50 &emsp;  评论/125  &emsp;  推荐</p>
+                    <img src="images/play.png" hspace="0px"/>
+            </div>
+        </div>
+        <!-- 以下为演艺经历，插入文字即可  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">演艺经历</b>
+            <img src="4.jpg" width="600px" height="200px"alt="演艺经历" title="演艺经历"/>
+            <p>&emsp;&emsp;2007年，特洛耶·希文在里格尔剧院（Regal Theatre）上演的舞台剧《雾都孤儿》里扮演主角Oliver Twist，同年，他参加了澳大利亚的真人秀节目《Star Search》。2008年，参与电影《X战警前传：金刚狼》的拍摄，出演少年时期的詹姆斯·豪利特 [11]  。2009年，发行单曲《For Them》，该曲是一首为世界苦难儿童所唱的歌。同年，翻唱歌曲《an angel》。2010年2月，参与《We Are The World 25 for Haiti》的录制，为海地地震遇难者筹集善款。3月，在南非参与电影《马铃薯》（Spud）的拍摄，在该片中出演男主角 [12]  。</p>
+            <p>&emsp;&emsp;2011年，凭借电影《马铃薯》提名南非电影电视奖“电影长片类最佳男主角奖” [2]  。2012年3月9日，特洛耶·希文参与录制的《天天向上》播出，特洛耶·希文在节目中翻唱了《The One That Got Away》 [13]  。2013年6月5日，签约澳大利亚百代唱片。2014年8月15日，发行个人首张音乐EP《TRXYE》。该EP上架首周，在全球范围内获得55国下载榜冠军；EP单曲《Happy Little Pill》被澳洲认证黄金销量。同年10月，入选《时代》周刊“2014年网络最具有影响力青少年25位”。 [3] </p>   
+            <p>&emsp;&emsp;2015年9月4日，发行个人第二张音乐EP《WILD》。10月15日，北美巡演于西雅图启程。12月4日，发行个人首张音乐专辑《Blue Neighbourhood》 [14]  。2016年4月，登上同性杂志《Out》封面。5月，亮相美国公告牌颁奖典礼，并在现场演唱《Youth》 [15]  。2017年5月26日，发行音乐单曲《There For You》 [16]  。8月31日，加盟澳洲男星乔尔·埃哲顿执导的同性题材影片《被抹去的男孩》 [17]  。2018年8月，发行个人第二张音乐专辑《BLOOM》 [6]  。</p>
+
+        </div>
+        <!-- 以下为个人生活，插入文字图片即可  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">个人生活</b>
+        <br>
+            <p>&emsp;&emsp;2013年8月7日，特洛耶·希文在YouTube发布视频，公开自己的性取向 [1]  。同时，他得到了父母和亲戚的理解和支持 [3]  。他的同性男友是Jacob Bixenman [18]  。</p>
+            <img src="5.jpg" alt="个人生活" title="个人生活"/>
+        </div>
+        <!-- 同样将广告放在页面右边  -->
+        <div style="float: right;">
+            <div class="one">
+                <img src="images/5.jpg"width="250px" height="188px"/>
+                <p class="one">手机商城《选择自己喜欢的手机...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                2小时前上传<br>
+                1284 &emsp;人气/11  &emsp;  评论/47  &emsp;  推荐</p>
+                <img src="images/play.png" hspace="0px"/>
+            </div>
+        
+            <div class="two">
+                <img src="images/6.jpg"width="250px" height="188px"/>
+                <p class="one">从业网X《如何找到合适自己的工作...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                    3小时前上传<br>
+                    1569 &emsp; 人气/50  &emsp;  评论/125  &emsp;  推荐</p>
+                    <img src="images/play.png" hspace="0px"/>
+            </div>
+        </div>
+        
+        <!-- 利用css与html，制作了一个框架，将写真排列了在内，。每两个大div套着四个div，这四个div变成行内元素可以并排  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">写真记录</b>
+            <div class="box"> 
+                <div class="list">
+                    <img src="xz/1.jpg"width="110px" height="140px" />
+                    <p class="up">《Harper's BAZAAR》</p><br>
+                    <p class="down">2019年11月</p><br>
+                    <p class="down">封面人物</p>
+                </div> 
+                <div class="list">
+                    <img src="xz/2.jpg"width="110px" height="140px" />
+                    <p class="up">《Rogue》</p><br>
+                    <p class="down">2018年冬季</p><br>
+                    <p class="down">封面人物</p>
+                </div> 
+                <div class="list">
+                    <img src="xz/3.jpg"width="110px" height="140px" />
+                    <p class="up">《Paper》</p><br>
+                    <p class="down">2018-09</p><br>
+                    <p class="down">封面人物</p>
+                </div> 
+                <div class="list">
+                    <img src="xz/4.jpg"width="110px" height="140px" />
+                    <p class="up">《VMAN》</p><br>
+                    <p class="down">2018年8月</p><br>
+                    <p class="down">封面人物</p>
+                </div> 
+                 
+                </div>
+                <div style="height: 20px;"></div>
+                <div class="box"> 
+                    <div class="list">
+                        <img src="xz/5.jpg"width="110px" height="140px" />
+                        <p class="up">《Time Off》</p><br>
+                        <p class="down">2018年8月</p><br>
+                        <p class="down">封面人物</p>
+                    </div> 
+                    <div class="list">
+                        <img src="xz/6.jpg"width="110px" height="140px" />
+                        <p class="up">《Attitude》</p><br>
+                        <p class="down">2018年7月刊</p><br>
+                        <p class="down">封面人物</p>
+                    </div> 
+                    <div class="list">
+                        <img src="xz/7.jpg"width="110px" height="140px" />
+                        <p class="up">《OUT》</p><br>
+                        <p class="down">2018-07</p><br>
+                        <p class="down">封面人物</p>
+                    </div> 
+                    <div class="list">
+                        <img src="xz/8.jpg"width="110px" height="140px" />
+                        <p class="up">《Clash》</p><br>
+                        <p class="down">2018-06</p><br>
+                        <p class="down">封面人物</p>
+                    </div> 
+                     
+                    </div>
+        </div>
+        <!-- 以下为社会活动，同上较简单  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">社会活动</b>
+        <br>
+            <p>&emsp;&emsp;2006年至2008年，特洛耶·希文连续三年参加了七号电视网珀斯电视募捐活动，并在活动中献唱，所募得资金捐献给珀斯当地的儿童医院、儿童健康研究院和听障中心等机构 [21]  。2013年5月5日，在YouTube频道上发布了原创歌曲《The Fault In Our Stars》，将发售的收入捐献给了珀斯的玛格丽特公主医院基金会作为癌症治疗和研究 [22]  。</p>
+            <img src="6.jpg"/>
+        </div>
+
+        <!-- 广告同上  -->
+        <div style="float: right;">
+            <div class="one">
+                <img src="images/7.jpg"width="250px" height="188px"/>
+                <p class="one">贷款X带你网《安全贷款...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                2小时前上传<br>
+                1284 &emsp;人气/11  &emsp;  评论/47  &emsp;  推荐</p>
+                <img src="images/play.png" hspace="0px"/>
+            </div>
+        
+            <div class="two">
+                <img src="images/8.jpg"width="250px" height="188px"/>
+                <p class="one">奥利奥X视知《吃奥利奥，奥利...</p>
+                <p><b>原创作品</b>-影视-Motion Graphic<br>
+                    3小时前上传<br>
+                    1569 &emsp; 人气/50  &emsp;  评论/125  &emsp;  推荐</p>
+                    <img src="images/play.png" hspace="0px"/>
+            </div>
+        </div>
+
+<!-- 功能为放在想看内容的栏目上，下面的内容就会相应变化  -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">获奖记录</b>
+        
+        <div id="wrap">
+            <div class="header">
+                <span class="selectedSpan">音乐奖项</span>
+                <span>影视奖项</span>
+                <span>个人奖项</span>
+            </div>
+    
+            <div class="content">
+                <ul class="selectedList">
+                    <li> 2017-04    第5届音悦V榜年度盛典：欧美最佳新人奖    （获奖） </li>
+                    <li>2016-12    2016澳大利亚唱片业协会音乐奖：年度歌曲奖《Youth》、最佳录影带《Youth》    （获奖）  </li>
+                    <li>2016-11    2016欧洲音乐大奖：最佳澳大利亚艺人奖    （获奖）</li>
+                    <li>2016-01    2016同志媒体奖：杰出音乐人奖《Blue Neighbourhood》    （获奖）  </li>
+                    <li>2015-10    2015欧洲音乐大奖：最佳新人奖    （获奖）   </li>
+                    <li>2015-03    2015 YouTube音乐奖：50大热门艺人奖    （获奖）</li>
+                </ul>
+                <ul>
+                    <li>2014-07    2014青少年选择奖 ：网络最佳拍档奖《The 'Boyfriend' Tag》    （获奖）</li>
+                    <li>2011    2011南非电影电视奖：电影长片类最佳男主角奖[2]     （提名）</li>
+                    
+                </ul>
+                <ul>
+                    <li>2017-04    2017同志媒体奖：Stephen F. Kolzak奖    （获奖）</li>
+                    <li>2015-03    2015儿童选择奖：最受欢迎澳大利亚/新西兰网络红人奖[4]     （获奖）</li>
+                    
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div style="height: 100px;"></div>
+
+        <!-- 利用script，增加了一点动态变化，放在不同的模块上下面内容会有变化 ，解释在下方 -->
+        <div style="margin: 50px;width: 600px;">
+            <b style="font-size: 2em;">人物评价</b>
+        <br>
+        <p>&emsp;&emsp;特洛耶·希文的歌唱，能够引起听众情绪上的共鸣，用情至深。（泰勒·斯威夫特评） [3]  特洛耶·希文虽然身体单薄，但是歌唱时镇定自若、发挥稳定。（搜狐网评） [23]</p>    
+        <p>&emsp;&emsp;特洛耶·希文通过YOUTUBE开设视频节目，讲各种青少年社会现象、模仿艺人做怪相，犀利又活泼，积攒了大批粉丝。（网易评） [24]  特洛耶·希文也参加了澳大利亚许多综艺节目，得到了越来越多人的关注。（腾讯网评） [1] </p>
+        <img src="7.jpg"/>
+        </div>
+
+
+        <!-- 以下为个人作品，有我自己的设计  -->
+    <div style="margin: 50px;width: 600px;">
+        <b style="font-size: 2em;">写下你对他的印象吧！</b>
+    <br>
+    <p>在留言区留下对他的赞美吧，激发他的动力做出更好的作品</p>
+   
+    
+    <!-- 可以将自己想说的内容写在方框内，然后显示在页面上  -->
+        <div>
+            <textarea id="content"></textarea>
+            <input id="btnSubmit" type="button" value="为他加油" onclick="add()"><!-- 设置一个按钮当点击的时候执行add（）  -->
+            <div id="lists"></div>
+        </div>
+        <!-- 将ID为lists的内容放置mylists，将ID为content的内容放置mycontent，然后每按一次为他加油就多一行li这样就实现功能了  -->
+        <script>
+            mylists=document.getElementById("lists");
+            mycontent=document.getElementById("content");
+
+            function add(){
+                if(mycontent.value!="")
+                {
+                    var oValue=mycontent.value;
+                    mylists.innerHTML+="<li>"+oValue+"</li>";
+                    mycontent.value="";
+                }
+            }
+        </script>
+    </div>
+    </div>
+    <div style="text-align: center; margin-top: 50px;height: 50px;;font-size: 0.7em; ">
+        <b class="one" href="" >关于我们</b>
+        <a>&emsp;</a>
+        <b class="two" href="" >联系我们</b>
+    </div>
+    <!-- 将span里的内容放到spans成为数组，下一个同理，当鼠标放在不同项目上时他们的classname会相应变化，只展现一个classname所以实现了变化  -->
+    <script>
+        var spans =document.getElementsByTagName("span");
+        var uls=document.getElementsByTagName("ul");
+        let index=0;
+        for(let i=0;i<spans.length;i++)
+        {
+            spans[i].onmouseover = function(){
+                spans[index].className="";
+                uls[index].className="";
+                index=i;
+                spans[index].className="selectedSpan";
+                uls[index].className="selectedList";
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
